@@ -1,0 +1,269 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <meta name='viewport' content='width=device-width, initial-scale=1'>
+    <script src='https://kit.fontawesome.com/a076d05399.js'></script>
+    <!--Get your own code at fontawesome.com-->
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <title>TENTANG KAMI</title>
+<style>
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+ 
+body
+{
+    background-color:  #e60000;
+}
+ 
+.badan-utama
+{
+    max-width: 1080px;
+    margin: 20px auto;
+    background-color: white;
+    padding: 15px;
+    overflow: hidden;
+}
+ 
+header
+{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+ 
+header h2
+{
+    margin-bottom: 7px;
+    font-size: 35px;
+}
+
+.typing > * {
+    overflow: hidden;
+    white-space: nowrap;
+    animation: typingAnim 7s steps(27);
+} 
+
+@keyframes typingAnim {
+    from {width: 0}
+    to {width: 100%}
+}
+
+#nav{
+    background-color: #e60000;
+}
+
+#nav-wrapper{
+    width: 900px;
+    margin:0 auto;
+    text-align: left;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    font-weight: bold;
+}
+#nav ul{
+    list-style-type: none;
+    padding: 0;
+    margin:0;
+    position: relative;
+}
+#nav ul li {
+    display: inline-block;
+}
+#nav ul li:hover {
+    background-color: #b30000;
+}
+#nav ul li a,visited {
+    color: white;
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+#nav ul li a:hover {
+    color: white;
+    text-decoration: none;
+}
+#nav ul li:hover ul {
+    display: block;
+}
+#nav ul ul {
+    display: none;
+    position: absolute;
+    background-color: #e60000;
+    border-top: 0;
+    margin-left: 0px;
+    min-width: 164px;
+}   
+#nav ul ul li {
+    display: block;
+    font-weight: normal;
+}
+#nav ul ul li a,visited {
+    color: white;
+}
+#nav ul ul li a:hover {
+    color: #e6e6e6;
+}
+#nav ul li span.arrow {
+    border:5px solid transparent;
+    border-top: 9px solid #fff;
+    position: absolute;
+    top: 20px;
+    left: 564px;
+}     
+.banner
+{
+    margin-bottom: 15px;
+}
+ 
+.banner img
+{
+    display: block;
+    width: 75%;
+    height: 330px;
+    margin-left: 115px;
+    border-radius: 10px;
+    border:3px solid black;
+}
+.banner p {
+    margin-left: 20px;
+    margin-right: 20px;
+    font-size: 20px;
+} 
+
+footer{
+    clear: both;
+    background-color: black;
+    color: white;
+    padding: 15px;
+    text-align: center;
+}
+ 
+ 
+/*untuk tablet*/
+@media screen and (max-width:1080px)
+{
+    .badan-utama
+    {
+        width: 100%;
+    }
+    footer{
+        width:100%;
+    }
+}
+ 
+/*untuk android*/
+@media screen and (max-width:780px)
+{
+    .badan-utama {
+        width: 95%;
+    }
+    header h2, header p
+    {
+        text-align: center;
+    }
+ 
+    #nav
+    {
+        float: none;
+
+    }
+    #nav-wrapper {
+        width: 100%;
+        font-size: 8px;
+    }
+    .banner img {
+        width: 97%;
+        margin-left:3%;
+        height: 200px;
+    }
+    .banner p {
+        font-size: 20px;
+        text-align:center;
+    }
+    #nav ul li span.arrow {
+        left: 292px;
+        top: 18px;
+        border-top: 3px solid #fff;
+        border-left-width: 3px;
+        border-right-width: 3px;
+    }
+    #nav ul ul {
+        min-width: 86px;
+    {
+}
+</style>
+</head>
+<body>
+     
+    <div class="badan-utama">
+        
+        <header>
+            <h2>Bengkel Evolution</h2>
+            <div class="typing">
+            <p>Bengkel Service Mobil</p>
+            </div>
+        </header>
+ 
+        <div id="nav">
+            <div id="nav-wrapper">
+                <ul>
+                    <li><a href="index.html">BERANDA</a></li>
+                    <li><a href="Tentang Kami.html">TENTANG KAMI</a></li>
+                    <li><a href="servcess.html">SERVICE</a></li>
+                    <li><a href="#">HUBUNGI KAMI<span class="arrow"></span></a>
+                        <ul>
+                            <li><a href="https://bit.ly/3b1Lkui">Service Mobil</a></li>
+                        </ul>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <br>
+        <br>
+        <div class="banner">
+            <div class="w3-container w3-center w3-animate-left" style="animation-duration: 3s">
+             <h1 p align="center">BENGKEL EVOLUTION</h1>
+            </div>
+             <br>
+            <div class="w3-container w3-center w3-animate-zoom" style="animation-duration: 4s">
+            <div style=”text-align:justify; width:100%; border:1px solid #000099; padding:8px;”><img src="img/mobil2.jpg"> 
+            </div>
+            <div class="w3-container w3-center w3-animate-bottom" style="animation-duration: 7s">  
+            <p align="center">Bengkel Evolution hadir sejak tahun 2002, dengan pengalaman yang sudah kami peroleh lebih dari belasan tahun, kami percaya dan yakin bengkel 
+            kami adalah partner terbaik dalam perbaikan dan perawatan kendaraan anda. Setiap kendaraan yang datang ke bengkel kami adalah sebuah prioritas, dan alasan mengapa kami dan mekanik kami tidak pernah berhenti untuk berusaha memberikan service terbaik pada kendaraan anda.</p>
+
+            <p align="center">Bengkel Evolution adalah bengkel service mobil yang berlokasi di kota Bandung yang tepatnya berada di Jl. Jendral Sudirman No.648. Bengkel mobil Evolution melayani kebutuhan customer dalam hal perbaikan dan perawatan kendaraan mobil serta menyediakan sparepart dari berbagai macam jenis dan merek yang disertai oleh mekanik yang handal dan berpengalaman puluhan tahun serta di dukung oleh peralatan yang lengkap.</p>
+
+            <p align="center">Bengkel Evolution juga memenuhi panggilan di manapun mobil anda berada Area Kota Bandung, Cimahi, Padalarang, Rancaekek, Lembang, area Kotamadya atau Kabupaten Bandung jika atau mobil tidak bisa jalan di suatu tempat bermasalah pada mobilnya.</p>
+            </div>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            <br>
+            </div>   
+        </div>      
+     
+        <footer>
+           <p align="left"><i style='font-size:18px' class='fas'>&#xf3c5;</i>  Jl. Jendral Sudirman No.648, Kota Bandung, Jawa Barat </p>
+           <p align="left"> <i style='font-size:18px' class='far'>&#xf073;</i>    Senin - Sabtu </p>   
+            <p align="left"><i style='font-size:18px' class='fas'>&#xf017;</i>  08.30 WIB - 17.00 WIB</p>     
+            <p align="left"><i style='font-size:18px' class='fas'>&#xf095;</i> 08122100522</p>
+            @copyright 2020 || By Jihan Fadhila
+        </footer>
+
+    </div>
+ 
+</body>
+</html>   
+            
